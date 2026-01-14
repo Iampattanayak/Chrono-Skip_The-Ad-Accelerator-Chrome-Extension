@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrono-Skip Dashboard</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow-orb top"></div>
+        <div class="glow-orb bottom"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container glass-panel">
+        <header>
+            <div class="brand">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="currentColor" />
+                    </svg>
+                </div>
+                <h1>CHRONO<span class="accent">SKIP</span></h1>
+            </div>
+            <div class="status-indicator">ACTIVE</div>
+        </header>
+
+        <div class="main-control">
+            <label class="switch-container">
+                <input type="checkbox" id="toggleSwitch">
+                <div class="slider-track">
+                    <div class="slider-thumb"></div>
+                </div>
+                <div class="switch-glow"></div>
+            </label>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18.36 6.64a9 9 0 1 1-12.73 0" />
+                        <line x1="12" y1="2" x2="12" y2="12" />
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-label">ADS VAPORIZED</div>
+                    <div class="stat-value" id="adsCount">0</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10" />
+                        <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-label">TIME RECLAIMED</div>
+                    <div class="stat-value highlight" id="timeSaved">0m</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>SYSTEM OPTIMIZED</p>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
