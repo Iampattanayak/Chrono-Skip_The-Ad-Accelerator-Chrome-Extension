@@ -26,7 +26,7 @@ Chrono-Skip is a high-performance Chrome Extension that automatically detects an
     *   Toggle the switch in the top-right corner to **ON**.
 3.  **Load Unpacked**
     *   Click the **"Load unpacked"** button in the top-left.
-    *   Select the `YT ads blocker` folder.
+    *   Select the folder.
 4.  **Pin & Enjoy**
     *   Pin the Chrono-Skip icon to your toolbar for easy access.
 
@@ -34,7 +34,7 @@ Chrono-Skip is a high-performance Chrome Extension that automatically detects an
 
 ## 🔒 Privacy Policy
 
-**Last Updated:** January 14, 2026
+**Last Updated:** sep 20, 2025
 
 At Chrono-Skip ("we", "us", or "our"), we respect your privacy and are committed to protecting it.
 
@@ -66,4 +66,3 @@ The code is provided "as is", without warranty of any kind. Users are responsibl
 
 ---
 
-*Made with ❤️ and high-speed logic.*
