@@ -12,7 +12,6 @@ Chrono-Skip is a high-performance Chrome Extension that automatically detects an
 
 *   **⚡ Auto-Skip & Speed Up**: Accelerates video ads to 16x speed and auto-clicks skip buttons.
 *   **👻 Visual Stealth**: Hides the video player during ad acceleration to prevent flickering.
-*   **🚫 Banner Ads Gone**: Automatically removes static banner ads and "merch shelves" from the page.
 *   **📊 Dashboard & Stats**: Track how many ads you've skipped and how much life you've reclaimed.
 *   **🌑 Cyberpunk UI**: A stunning, high-tech Neon Cyan interface.
 
